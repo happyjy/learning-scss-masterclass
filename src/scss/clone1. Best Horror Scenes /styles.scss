@@ -1,7 +1,41 @@
 @import '_variables';
+/*
+  STUDY1.
+  # box-sizing: border-box;
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+    - box-sizing으로 올수 있는 value 2가지 content-box, border-box에 대해서 설정이 잘되어 있다.
+*/
 
+/*
+  STUDY2.
+  # text-align
+    - https://css-tricks.com/almanac/properties/t/text-align/
+*/
+
+/*
+  STUDY3.
+  # flex-wrap
+    - https://css-tricks.com/almanac/properties/f/flex-wrap/
+    - flex-wrap property value 3가지 
+      - nowrap: 한줄에 items를 나열, container를 overflow하지 않는다.
+      - wrap: container를 overflow해 dispaly: flex 대상 아이템 크기 유지
+      - wrap-revers: wrap과 같은 기능에 items 순서를 뒤집는다.
+*/
+
+/*
+  STUDY4.
+  # background: linear-gradient( [value] ), color;
+    - 개념 
+      : https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+    - 응용
+      : https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
+    - 테스트환경
+      : https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_trans
+*/
+
+//STUDY1
 * {
-	box-sizing: border-box; //?
+	box-sizing: border-box;
 }
 
 body {
@@ -17,7 +51,7 @@ header {
 	left: 0;
 	width: $fixedWidth;
 	height: 100%;
-	padding: 190px;
+	// padding: 190px;
 	padding: 10vh 0 72px 72px;
 	display: flex;
 	flex-direction: column;
@@ -38,8 +72,8 @@ header {
 	h3,
 	p {
 		width: 70%;
-		line-height: 1.2; //?
-		text-align: justify; //?
+		line-height: 1.2; // 줄간격
+		text-align: justify; // STUDY2. text정렬, justify: 박스에 차도록 정렬
 	}
 
 	p {
@@ -52,7 +86,7 @@ header {
 		width: 80%;
 		ul {
 			display: flex;
-			flex-wrap: wrap; //?
+			flex-wrap: wrap; //STUDY3.
 			li {
 				cursor: pointer;
 				margin-right: 12px;
@@ -73,6 +107,12 @@ header {
 main {
 	margin-left: $fixedWidth;
 	.movie {
+		//SUTDY4.
+		//- to bottom: 위에서 아래로 linear-gradient 적용
+		//- red를 제외하면 "rgba(0, 0, 0, 0.1) 5%"의 값이 표현되는것을 확인할 수 있다.
+		//- red를 linear-gradient 밖에 쓰면 빨간색 배경에 "linear-gradient" 효과가 덮여 씌여진다.
+		//- red를 linear-gradient 안에 쓰면 회색에서 빨간식으로 linear-gradient 효과가 나타난다.
+		//- transparent: 투명한 것으로 채워준다./ 여러개 쓴이유는 쓴만큼 container를 차지해서 rgba(0,0,0,0.1) 5%가 채워지는 부분이 적어진다.
 		background: linear-gradient(
 				to bottom,
 				rgba(0, 0, 0, 0.1) 5%,
@@ -94,7 +134,7 @@ main {
 			.movie__header {
 				display: flex;
 				justify-content: space-between;
-				align-items: flex-end;
+				align-items: flex-end; //STUDY h4, h5 글자 크기가 달라서 높이 정렬 조절
 				margin-bottom: 25px;
 				h4 {
 					font-size: 25px;
