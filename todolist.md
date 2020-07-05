@@ -7,3 +7,8 @@
   - [ ] 3.2 번호 클릭시 1,1/ 2,1 2,2/ 3,1 화면 끝으로 넘어가는 애니메이션
   - [ ] 3.3 번호 클릭후 나오는 화며에 next로 다음 번호로 넘어가는것 
 
+## 4. http://www.z-o-o.fr/
+  - [ ] 4.0 contact 클릭시 layer뜨면서 modal 같이 나오는거 
+
+## 5. https://schwartzmedia.com.au/
+  - [ ] 5.0 상단 hear 부분
