@@ -33,7 +33,12 @@
     - 테이블 클릭시 아래 방향으로 늘어지게 해보기
   - [ ] 9.2 layout
     - https://www.w3schools.com/howto/howto_js_accordion.asp
-    
 
 ## 10. https://canalstreet.market
   - [ ] 10.0 미디어 쿼리로 반응형 만들어 보기 
+  - [ ] 10.1 모바일 메뉴 구현해보기 
+
+## 11. https://canalstreet.market/
+  - [ ] 11.0 미디어 쿼리로 반응형 만들어 보기 
+  - [ ] 11.1 흰,파,빨,노 세로 아코디언 구현해보기 
+  - [ ] 11.2 dotted line 움직임 구현해보기
