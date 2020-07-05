@@ -1,0 +1,10 @@
+%tinyText {
+	color: $red;
+	font-size: 12px;
+	font-family: "Nuito";
+}
+
+%grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr 5fr;
+}

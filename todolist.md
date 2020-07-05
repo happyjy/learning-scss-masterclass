@@ -22,3 +22,18 @@
 ## 7. https://rodicdavidson.co.uk/
   - [ ] 7.0 홈페이지 전체적으로 깔끔해서 전체다 구현해보기
 
+## 8. https://beige.de/
+  - [ ] 8.0 미디어 쿼리로 반응형 만들어 보기 
+  - [ ] 8.1 찾기 아이콘 눌렀을때 화면 
+
+## 9. http://donicaida.com/
+  - [ ] 9.0 미디어 쿼리로 반응형 만들어 보기 
+  - [ ] 9.1 아코디언 적용해보기 
+    - https://www.w3schools.com/howto/howto_js_accordion.asp
+    - 테이블 클릭시 아래 방향으로 늘어지게 해보기
+  - [ ] 9.2 layout
+    - https://www.w3schools.com/howto/howto_js_accordion.asp
+    
+
+## 10. https://canalstreet.market
+  - [ ] 10.0 미디어 쿼리로 반응형 만들어 보기 
