@@ -32,7 +32,15 @@ a {
 
 /*
   # POINT
+  1. "글자 rotate"
+    - transform 으로 
 
+  2. mouse hover 했을때 사진 "blur"처리 
+    - transition 사용
+    - background-size, background-position 사용
+
+  3. grid span 적용
+    - grid-column-start: span 2;
 */
 
 body {
