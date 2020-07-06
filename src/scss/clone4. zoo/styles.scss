@@ -1,17 +1,17 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:400, 500&display=swap";
 @import "https://fonts.googleapis.com/css?family=Caladea:400&display=swap";
 @import "_variables";
-@import "_titles";
+// @import "_titles";
 
 * {
 	box-sizing: border-box;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-	@extend %miniTitle;
-}
+// a {
+// 	text-decoration: none;
+// 	color: inherit;
+// 	@extend %miniTitle;
+// }
 
 /*
   # POINT
